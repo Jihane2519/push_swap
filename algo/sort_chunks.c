@@ -101,7 +101,7 @@ void	sort_chunks(t_stack **a, t_stack **b)
 	if (c.size <= 100)
 		c.end = c.size / 6;
 	else
-		c.end = c.size / 14;
+		c.end = c.size / 12;
 	push_to_chunk(a, b, &c);
 	push_back_biggest(a, b);
 	free(c.tab);
